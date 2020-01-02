@@ -772,7 +772,7 @@ If the CA follows redirects:
 3.	Redirects MUST be to resource URLs with either via the "http" or "https" scheme.
 4.	Redirects MUST be to resource URLs accessed via Authorized Ports.
 
-Note: Once the FQDN has been validated using this method, the CA MAY also issue Certificates for other FQDNs that end with all the labels of the validated FQDN.  This method is suitable for validating Wildcard Domain Names.
+**Note:** Once the FQDN has been validated using this method, the CA MAY also issue Certificates for other FQDNs that end with all the labels of the validated FQDN.  This method is suitable for validating Wildcard Domain Names.
 
 #### 3.2.2.5 Authentication for an IP Address
 
