@@ -90,9 +90,6 @@ root, limited as follows:
   be present)
 - CA operational practices, physical/logical security, etc.
 
-The SMCWG needs to exercise caution to ensure that its work product does not 
-impede the issuance of certificates with other EKU types.
-
 ### 2. Out of Scope
 
 Certificates issued under a root certificate that is not publicly trusted SHALL
