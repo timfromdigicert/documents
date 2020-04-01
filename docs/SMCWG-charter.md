@@ -79,7 +79,7 @@ policies, frameworks, and sets of standards related to the issuance and
 management of S/MIME certificates by third-party CAs under a publicly trusted
 root, limited as follows:
 
-- Baseline verification of control over email addresses, including those used
+- Verification of control over email addresses, including those used
   by a natural person or a legal entity, or used by automated systems such as
   for mailing lists
 - Identity validation for natural persons and legal entities
