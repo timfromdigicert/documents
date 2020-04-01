@@ -7,9 +7,9 @@ assist the interpretation of this Charter.
 
 An S/MIME certificate contains a public key bound to an email address; and may
 also contain the identity of a natural person or legal entity that controls such
-email address. The key pair can then be used to sign, encrypt, and decrypt
-email. An S/MIME certificate can be identified by the existence of an Extended
-Key Usage (EKU) Object Identifier (OID) of `1.3.6.1.5.5.7.3.4` for
+email address. The key pair can then be used to sign, verify, encrypt, and 
+decrypt email. An S/MIME certificate can be identified by the existence of an 
+Extended Key Usage (EKU) Object Identifier (OID) of `1.3.6.1.5.5.7.3.4` for
 emailProtection.
 
 The objective of an S/MIME certificate is to provide cryptographic security
@@ -90,8 +90,8 @@ root, limited as follows:
   be present)
 - CA operational practices, physical/logical security, etc.
 
-The SMCWG SHALL exercise caution to ensure that its work product does not impede
-the issuance of certificates with other EKU types.
+The SMCWG needs to exercise caution to ensure that its work product does not 
+impede the issuance of certificates with other EKU types.
 
 ### 2. Out of Scope
 
@@ -162,8 +162,8 @@ forth in the Bylaws.
    * The organization name, as they wish it to appear on the Forum Web site and
      in official Forum documents.
    * URL of the applicant’s main Web site.
-   * Names and email addresses of employees who will participate in the Working
-     Group and Forum as Member representatives.
+   * Names and email addresses of designated representatives who will participate 
+     in the Working Group and Forum on behalf of the Member.
    * Emergency contact information for security issues related to certificate
      trust.
 
@@ -275,9 +275,9 @@ than 50% of the votes cast by the Certificate Consumers must be in favor of the
 ballot. At least one member of each class must vote in favor of a ballot for it
 to be adopted. Quorum is the average number of Member organizations (cumulative,
 regardless of Class) that have participated in the previous three (3) SMCWG
-Meetings or Teleconferences (not counting subcommittee meetings thereof). For
-transition purposes, if three (3) meetings have not yet occurred, quorum is
-three (3).
+Meetings or Teleconferences (not counting subcommittee meetings thereof). No
+Ballots shall be adopted until at least (3) meetings have occurred and quorum
+determined.
 
 #### 6.2. Other Organizational Matters
 
@@ -287,13 +287,12 @@ three (3).
   to the Chair herein MAY be performed by the Vice Chair. For example, the Vice
   Chair MAY preside at SMCWG Meetings and Teleconferences in the Chair’s
   absence.
-- SMCWG-created Subcommittees MAY be approved either:
-
-  1. by formal ballot as described in [6.1](#6.1-voting-structure), or
-  2. by simple majority vote of those members present at a regularly
-     scheduled SMCWG Meeting or Teleconference provided that the proposal is
-     mentioned in an agenda circulated on the SMCWG Mail List at least
-     forty-eight (48) hours prior to the SMCWG Meeting or Teleconference.
+- The SMCWG may establish subcommittees, by formal ballot, to address any of the
+  SMCWG’s business as specified in the ballot (each, a “SMCWG Subcommittee”).
+  SMCWG Subcommittees are open to all SMCWG Members. A SMCWG Subcommittee may
+  work on and recommend ballots, complete delegated functions, or issue reports
+  to the SMCWG that are within the scope of this charter. SMCWG Subcommittees
+  must post all agendas and minutes on a public mail list.
 
 ### 7. Summary of Major Deliverables
 
